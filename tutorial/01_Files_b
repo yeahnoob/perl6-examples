@@ -1,6 +1,6 @@
 #!/usr/local/bin/perl6
 
-for $*IN.get {
+for $*IN.lines {
 	say "Read the line: $_";
 }
 
